@@ -1,0 +1,104 @@
+.cabecalho {
+    padding: 40px;
+    margin-left: 50px;
+}
+
+.botoes {
+    cursor: pointer;
+    font-weight: bold;
+    width: none;
+    transition: 0.5s;
+    display: flex;
+    font-family: poppins;
+}
+
+.botoes .botao-menu {
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    color: rgb(179, 176, 176);
+}
+.botao-menu:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.botoes .botao-detalhes {
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    color: rgb(179, 176, 176);
+}
+
+.botao-detalhes:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+
+.titulos {
+    padding: 60px 0px 0px 390px;
+    color: rgb(231, 227, 227);
+}
+
+.cabecalho h1 {
+    font-family: garamond;
+    margin-left: 150px;
+    padding-bottom: 25px;
+}
+
+.cabecalho h2 {
+    font-family: satisfy;
+}
+
+
+.container {
+    display: flex;
+    font-family: poppins;
+    padding: 60px 0px 0px 0px;
+}
+
+.container .sobre {
+    padding: 0px 30px 0px 70px;
+    color: rgb(204, 201, 201);
+    font-size: 20px;
+    width: 130px;
+}
+
+.container .sobre .persona {
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+}
+
+.container .sobre .atores {
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+}
+
+.container .sobre .dog {
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+}
+
+.container .sobre .serie {
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+}
+
+article .texto {
+    text-align: justify;
+    color: rgb(236, 230, 230);
+    width: 70%;
+    padding: 0px 0px 0px 100px;
+    font-size: 20px;
+}
+
+.chracters {
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.26934523809523814) 0%, rgba(82,77,77,1) 0%, rgba(150,147,147,1) 50%, rgba(0,0,0,1) 100%);
+}
+
